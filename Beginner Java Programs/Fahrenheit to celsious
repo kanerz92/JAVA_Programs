@@ -1,0 +1,35 @@
+//create a method that convert fahrenheit to celsius
+
+/**
+ * The celsius method converts a Fahrenheit temperature to Celsius.
+ *
+ * @param fahrenheit The Fahrenheit temperature.
+ * @return The equivalent Celsius temperature.
+ */
+static double celsius(double fahrenheit) {
+    return ((5.0 / 9.0) * (fahrenheit - 32));
+}
+
+//Display table header
+
+System.out.println("Fahrenheit\tCelsius");
+System.out.println("====================");
+
+//Create a loop from 0 to 100
+
+for (int x = 0; x <= 100; x++) {
+    System.out.print(x);
+    System.out.print("\t\t");
+    System.out.print(celsius(x));
+    System.out.println();
+ }
+ 
+ //OUTPUT
+ Fahrenheit  Celsius
+====================
+0       -17.77777777777778
+1       -17.22222222222222
+2       -16.666666666666668
+3       -16.11111111111111
+4       -15.555555555555557
+5       -15.0

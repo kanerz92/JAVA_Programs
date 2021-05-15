@@ -1,0 +1,76 @@
+GuessingGame
+
+The problem
+Write a program that generates a random number and asks the user to guess what the number is. If the user's guess is higher than the random number,the program should display "Too high, try again." if the user's guess is lower than the random number, the program should display "Too low, try again."
+
+The program should use a loop that repeats until the user correctly guesses the random number. You shall also keep a count of the number of guesses that the user makes. When the user correctly guesses the random number, the program should display the number of usersGuesses. Now add another loop to ask the user if he or she wishes to play the usersGuessing game again. If so, the loop should repeat, otherwise it should terminate.
+
+Breaking it down
+Class set up
+// Create a Random object.
+final static Random rand = new Random();
+
+// max number is the upward bound number
+static final int MAX_NUMBER = 10;
+Create method to return random number
+/**
+ * Method should return a random number within the upward bound MAX_NUMBER.
+ * @return
+ */
+static int getRandomNumber () {
+    return rand.nextInt(MAX_NUMBER);
+}
+Create variables to hold input in program
+int usersGuess;
+int randomNumber;
+int numberOfGuesses; 
+Create scanner, ask user for input
+Scanner keyboard = new Scanner(System.in);
+
+System.out.println("I'm thinking of a number.");
+System.out.print("Guess what it is: ");
+usersGuess = keyboard.nextInt();
+Call to random number, respond to user's input
+numberOfGuesses = 1;
+
+randomNumber = getRandomNumber();
+
+// Respond to the user's usersGuess.
+while (usersGuess != randomNumber) {
+
+    if (usersGuess < randomNumber) {
+        System.out.println("No, that's too low.");
+    } else if (usersGuess > randomNumber) {
+        System.out.println("Sorry, that's too high.");
+    }
+
+    // Ask again
+    System.out.print("Guess again: ");
+    usersGuess = keyboard.nextInt();
+
+    // Increment the usersGuess counter.
+    numberOfGuesses++;
+}
+Display output
+System.out.println("Congratulations! You guessed it!");
+System.out.println("I was thinking of the number " + randomNumber + ".");
+System.out.println("You got it right in " + numberOfGuesses + " guesses.");
+Output
+I'm thinking of a number.
+Guess what it is: 34
+Sorry, that's too high.
+Guess again: 10
+Sorry, that's too high.
+Guess again: 5
+No, that's too low.
+Guess again: 6
+No, that's too low.
+Guess again: 7
+Congratulations! You guessed it!
+I was thinking of the number 7.
+You got it right in 5 guesses.
+Unit tests
+@Test
+public void test_get_random_number () {
+    assertThat(GuessingGame.getRandomNumber(), is(lessThan(GuessingGame.MAX_NUMBER)));
+}

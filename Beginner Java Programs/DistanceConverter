@@ -1,0 +1,169 @@
+DISTANCE CONVERTER 
+
+The problem
+Write a program that asks the user to enter a distance in meters. The program will then present the following menu of selections:
+
+Convert to kilometers
+Convert to inches
+Convert to feet
+Quit the program
+The program will convert the distance to kilometers, inches, or feet, depending on the user’s selection. Here are the specific requirements:
+
+Write a method named calculateKilometers, which accepts the number of meters as an argument. The method should return the argument converted to kilometers. Convert the meters to kilometers using the following formula: kilometers = meters * 0.001
+Write a method named calculateInches, which accepts the number of meters as an argument. The method should retrun the argument converted to inches, Convert the meters to inches using the following formula: inches = meters * 39.37
+Write a method named calculateFeet, which accepts the number of meters as an argument. The method should return the argument converted to feet. Convert the meters to feet using the following formula:feet = meters * 3.281
+Write a method named menu that returns a list of menu of selections. This method should not accept any arguments.
+The program should continue to display the menu until the user enters 4 to quit the program.
+If the user selects an invalid choice from the menu, the program should display an error message.
+
+Breaking it down
+Create calculateKilometers method
+
+/**
+ * The calculateKilometers method displays the kilometers that are equivalent to
+ * a specified number of meters.
+ *
+ * @param meters
+ * @return the number of kilometers
+ */
+static double calculateKilometers(double meters) {
+
+    double kilometers = meters * 0.001;
+
+    return kilometers;
+}
+
+Create calculateInches method
+/**
+ * This method should calculate inches that are equivalent to a specified
+ * number of meters.
+ *
+ * @param meters
+ * @return the number of inches
+ */
+static double calculateInches(double meters) {
+
+    double inches = meters * 39.37;
+
+    return inches;
+}
+
+
+
+Create calculateFeet method
+/**
+ * This method should calculate the feet that are equivalent to a specified
+ * number of meters.
+ *
+ * @param meters
+ * @return The number of feet.
+ */
+static double calculateFeet(double meters) {
+
+    double feet = meters * 3.281;
+
+    return feet;
+}
+Create a method that returns a menu item list
+/**
+ * This method should return a collection of menu items.
+ *
+ * @return
+ */
+static List<String> getMenu() {
+
+    List<String> menuItems = new ArrayList<String>();
+    menuItems.add("Convert to kilometers");
+    menuItems.add("Convert to inches");
+    menuItems.add("Convert to feet");
+    menuItems.add("Quit the program");
+
+    return menuItems;
+}
+Create variables, scanner for keyboard input
+int selection; // Menu selection
+double distance; // Distance in meters
+
+// Create a Scanner object for keyboard input.
+Scanner keyboard = new Scanner(System.in);
+Ask user for input, calculate selection
+// Get a distance.
+System.out.print("Enter a distance in meters: ");
+distance = keyboard.nextDouble();
+
+// Display the menu and process the user's
+// selection until 4 is selected.
+List<String> menuItems = getMenu();
+do {
+
+    // Display the menu.
+    for (int x = 0; x < menuItems.size(); x++) {
+        System.out.println((x + 1) + ". " + menuItems.get(x));
+    }
+
+    // Get the user's selection.
+    System.out.print("\nEnter your choice: ");
+    selection = keyboard.nextInt();
+
+    // Validate the user's selection.
+    while (selection < 1 || selection > 4) {
+        System.out.print("Invalid selection. Enter your choice: ");
+        selection = keyboard.nextInt();
+    }
+
+    // Process the user's selection.
+    switch (selection) {
+        case 1:
+           System.out.println(distance + " meters is " +
+                   calculateKilometers(distance) + " kilometers.");
+            break;
+        case 2:
+           System.out.println(distance + " meters is " +
+                   calculateInches(distance) + " inches.");
+            break;
+        case 3:
+           System.out.println(distance + " meters is " +
+                   calculateFeet(distance) + " feet.");
+            break;
+        case 4:
+            System.out.println("Bye!");
+    }
+
+    System.out.println();
+
+} while (selection != 4);
+Output
+Enter a distance in meters: 100
+1. Convert to kilometers
+2. Convert to inches
+3. Convert to feet
+4. Quit the program
+
+Enter your choice: 1
+100.0 meters is 0.1 kilometers.
+
+1. Convert to kilometers
+2. Convert to inches
+3. Convert to feet
+4. Quit the program
+
+Enter your choice: 2
+100.0 meters is 3936.9999999999995 inches.
+
+1. Convert to kilometers
+2. Convert to inches
+3. Convert to feet
+4. Quit the program
+
+Enter your choice: 3
+100.0 meters is 328.1 feet.
+
+1. Convert to kilometers
+2. Convert to inches
+3. Convert to feet
+4. Quit the program
+
+Enter your choice: 4
+Bye!
+
+

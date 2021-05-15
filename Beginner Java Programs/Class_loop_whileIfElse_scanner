@@ -1,0 +1,61 @@
+// import from API
+import java.util.Scanner;
+
+public class Loop {
+
+	public static void main(String[] args) {
+		
+		// Declare and initialise variables
+		int counter = 0;
+		int num = 0;
+		
+		// Declare & create an instance of the Scanner class
+		Scanner input = new Scanner(System.in);
+		
+		// Loop until user inputs -1
+		while (num != -1) {
+			// Request input from user
+			System.out.print("Enter number 1, 2 or 3. Enter -1 to quit");
+			// Read in integer value and assign to variable
+		    num = input.nextInt();
+			
+		    // Conditional Branching  (if/else if statement)
+			if (num == 1){
+				// while loop
+				while (counter < 10) {
+					System.out.println("while loop interation " + (counter+1));
+					counter += 1;
+				}
+				
+			} else if (num == 2){
+				// for loop
+				for(int i = 0; i < 10; i++){
+					System.out.println("for loop iteration " + (i+1));
+				}
+				
+			} else if (num == 3) {	
+				counter = 0;
+				// do-while loop
+				do {
+					System.out.println("do-while loop iteration " + (counter+1));
+					counter ++;
+				} while (counter < 10);
+				
+			} else if (num == -1){
+			 
+				System.out.println("Program Terminating");
+				
+			}	else {
+
+				System.out.println("Error");
+				
+			}
+			
+		} // end while
+		
+		// close input to avoid possible leak 
+		input.close();
+		
+	} // end main()
+
+}  // end class

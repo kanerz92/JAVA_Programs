@@ -1,0 +1,66 @@
+/*
+  Chapter 4 Exercise 13
+  A program that computes the total ticket sales of a concert.
+  There are three types of seats: A, B and C. The program accepts
+  the number of tickets sold and the price of a ticket for each
+  of the three types of seats.
+  This application program is implemented using an instantiable
+  class Seat.
+
+  Author: Thomas Wu
+*/
+
+import java.util.*;
+
+class Ch4Ex13 {
+
+    public static void main(String[] args) {
+        Seat   typeA, typeB, typeC;
+        int    ticketsSold;
+        double pricePerTicket, totalSales;
+        String input;
+
+        Scanner scanner = new Scanner(System.in);
+
+        typeA = new Seat("Type-A Seats");
+        typeB = new Seat("Type-B Seats");
+        typeC = new Seat("Type-C Seats");
+
+        // Get input
+        System.out.print("Number of A seats sold: ");
+        ticketsSold = scanner.nextInt();
+        System.out.print("Price of a type-A ticket: ");
+        pricePerTicket = scanner.nextDouble();
+        typeA.setTicketInfo(ticketsSold, pricePerTicket);
+
+        System.out.print("Number of B seats sold: ");
+        ticketsSold = scanner.nextInt();
+        System.out.print("Price of a type-B ticket: ");
+        pricePerTicket = scanner.nextDouble();
+        typeB.setTicketInfo(ticketsSold, pricePerTicket);
+
+        System.out.print("Number of C seats sold: ");
+        ticketsSold = scanner.nextInt();
+        System.out.print("Price of a type-C ticket: ");
+        pricePerTicket = scanner.nextDouble();
+        typeC.setTicketInfo(ticketsSold, pricePerTicket);
+
+        // Compute the total sales figure
+        totalSales = typeA.getSales() + typeB.getSales() +
+                     typeC.getSales();
+
+        // Display result
+        System.out.println("Type of seat\tTickets sold\tPrice per ticket");
+        System.out.println("------------\t------------\t----------------");
+        System.out.println(typeA.getName() + "\t" + typeA.getTicketsSold() 
+                           + "\t\t" + typeA.getTicketPrice());
+        System.out.println(typeB.getName() + "\t" + typeB.getTicketsSold() 
+                           + "\t\t" + typeB.getTicketPrice());
+        System.out.println(typeC.getName() + "\t" + typeC.getTicketsSold() 
+                           + "\t\t" + typeC.getTicketPrice());
+
+        System.out.println();
+        System.out.println("Total Sales: \t$" + totalSales);
+    }
+
+}

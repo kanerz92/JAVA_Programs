@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class ConcertTicketSales {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Seat	typeA, typeB, typeC;	//Making seat class
+		int		soldTickets;			//variable for number of tickets sold per type
+		double 	ticketPrice, salesTotal; //variable for storing currency values
+		String 	input;					 //Hold inputs in a string, variable called input
+		
+		Scanner inputs = new Scanner(System.in);	//creating new scanner object called inputs(System console input)
+		
+		typeA = new Seat ("Type A Ticket"); 	//initialising Seat class, new seat object,string name
+		typeB = new Seat ("Type B Ticket");
+		typeC = new Seat ("Type B Ticket");
+		
+		//To get inputs for each type (number sold and price per ticket)
+		System.out.print("Enter number of A seats sold:");
+		soldTickets = inputs.nextInt();
+		System.out.print("Enter price of A tickets");
+		ticketPrice = inputs.nextDouble();
+		typeA.setTicketInfo(soldTickets, ticketPrice);
+		
+		System.out.print("Enter number of B seats sold:");
+		soldTickets = inputs.nextInt();
+		System.out.print("Enter price of B tickets");
+		ticketPrice = inputs.nextDouble();
+		typeB.setTicketInfo(soldTickets, ticketPrice);
+		
+		System.out.print("Enter number of C seats sold:");
+		soldTickets = inputs.nextInt();
+		System.out.print("Enter price of C tickets");
+		ticketPrice = inputs.nextDouble();
+		typeC.setTicketInfo(soldTickets, ticketPrice);
+		
+		salesTotal = typeA.getSales() + typeB.getSales() + typeC.getSales(); 	//Calculate the total sales and store in double variable called Sales Total
+		
+		System.out.println("Ticket Type \t Tickets Sold\t Price per Ticket");
+		System.out.println("------------\t ------------\t-----------------");
+		System.out.println(typeA.getName() + "\t" + typeA.getsoldTickets() + "\t\t" +typeA.getticketPrice());
+		System.out.println(typeB.getName() + "\t" + typeB.getsoldTickets() + "\t\t" +typeB.getticketPrice());
+		System.out.println(typeC.getName() + "\t" + typeC.getsoldTickets() + "\t\t" +typeC.getticketPrice());
+		
+		System.out.println();
+		System.out.println("Total Sales: \t$" + totalSales);
+		
+	}
+
+}

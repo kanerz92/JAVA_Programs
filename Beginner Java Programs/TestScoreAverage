@@ -1,0 +1,52 @@
+Test Average
+
+The problem
+Write a program that asks the user to enter in test scores. The program should display each test score as well as the average
+
+Breaking it down
+Create a data structure that will hold test scores
+List<Double> scores = new ArrayList<Double>();
+Write a method that will average the values
+/**
+ * Method should return the average score
+ *
+ * @param scores
+ * @return double
+ */
+static double averageScore(List<Double> scores) {
+    double sum = 0;
+    if (!scores.isEmpty()) {
+        for (Double score : scores) {
+            sum += score;
+        }
+        return sum / scores.size();
+    }
+    return sum;
+}
+Ask user to input test scores
+Scanner keyboard = new Scanner(System.in);
+
+System.out.print("Enter test score (-1 to exit): ");
+double selection = keyboard.nextDouble();
+
+while (selection != -1) {
+    System.out.print("Enter test score (-1 to exit): ");
+    selection = keyboard.nextDouble();
+    if (selection != -1) {
+        scores.add(selection);
+    }
+}
+Output test scores and average
+System.out.println("The scores entered: " + scores);
+
+System.out.print("The average: " + averageScore(scores));
+Output
+Enter test score (-1 to exit): 55
+Enter test score (-1 to exit): 78
+Enter test score (-1 to exit): 99
+Enter test score (-1 to exit): 87
+Enter test score (-1 to exit): 96
+Enter test score (-1 to exit): 76
+Enter test score (-1 to exit): -1
+The scores entered: [78.0, 99.0, 87.0, 96.0, 76.0]
+The average: 87.2

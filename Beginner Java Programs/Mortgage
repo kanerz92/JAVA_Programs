@@ -1,0 +1,65 @@
+MORTGAGE
+
+The problem
+Write a program that computes loan payments. The loan can be a car loan, a student loan, or a home mortgage loan. The program lets the user enter the interest rate, number of years, loan amount, and displays the monthly and total payments.
+
+Breaking it down
+public static void main(String[] args) {
+
+    Scanner console = new Scanner(System.in);
+
+    // ask user for input
+    System.out.println("This program computes monthly loan payments.");
+    System.out.print("Enter loan amount: ");
+    double loanAmount = console.nextDouble();
+
+    System.out.print("Enter number of years: ");
+    int years = console.nextInt();
+
+    System.out.print("Enter interest rate: ");
+    double interestRate = console.nextDouble();
+    System.out.println();
+
+    //close stream
+    console.close();
+
+    // call method for payment
+    double payment = calculateMonthlyPayment(loanAmount, years, interestRate);
+
+    // output result
+    System.out.println("Your loan payment = $" + (int) payment);
+}
+
+/**
+ * Method should calculate monthly payment
+ *
+ * @param loanAmount
+ * @param years
+ * @param interestRate
+ * @return payment
+ */
+static double calculateMonthlyPayment(double loanAmount, int years,
+        double interestRate) {
+
+    int months = 12 * years;
+    double c = interestRate / 12.0 / 100.0;
+    double payment = loanAmount * c * Math.pow(1 + c, months)
+            / (Math.pow(1 + c, months) - 1);
+
+    return payment;
+}
+Output
+This program computes monthly loan payments.
+Enter loan amount: 10000
+Enter number of years: 10
+Enter interest rate: 10
+
+Your loan payment = $132
+Unit tests
+@Test
+public void validatePayment() {
+
+    double val = Mortgage.calculateMonthlyPayment(10000, 10, 10);
+
+    assertEquals(132.15073688176193, val, 0);
+}

@@ -1,0 +1,124 @@
+GRADE PAPERS
+
+The problem
+Write a program that allows a user to enter in test scores. The program should display the average of the test scores and the letter grade that is assigned for the test score average. Use the following grading system:
+
+91 - 100 A
+81 - 90 B
+71 - 80 C
+61 - 70 D
+Below 60 F
+Breaking it down
+Create a grade rangemap
+static RangeMap<Integer, String> gradeScale = TreeRangeMap.create();
+static {
+    gradeScale.put(Range.closed(0, 60), "F");
+    gradeScale.put(Range.closed(61, 70), "D");
+    gradeScale.put(Range.closed(71, 80), "C");
+    gradeScale.put(Range.closed(81, 90), "B");
+    gradeScale.put(Range.closed(91, 100), "A");
+}
+Create test score & letter grade methods
+/**
+ * Method should calculate the average scores
+ *
+ * @param grades
+ * @return
+ */
+static double getTestScoreAverages (List<? extends Number> grades) {
+    return DoubleMath.mean(grades);
+}
+
+/**
+ * Method should return the letter grade based on scale
+ *
+ * @param averageOfAllTestScores
+ * @return letter grade
+ */
+static String getLetterGrade (double averageOfAllTestScores) {
+    return gradeScale.get((int) averageOfAllTestScores);
+}
+Create list to hold test scores
+List<Double> grades = Lists.newArrayList();
+Create a Scanner object for keyboard input
+Scanner keyboard = new Scanner(System.in);
+Get users selection
+System.out.print("Enter test score (-1 to exit): ");
+double selection = keyboard.nextDouble();
+
+while (selection != -1) {
+    System.out.print("Enter test score (-1 to exit): ");
+    selection = keyboard.nextDouble();
+    if (selection != -1) {
+        grades.add(new Double (selection));
+    }
+}
+Calculate score, grade and display results
+double averageOfAllTestScores = getTestScoreAverages (grades);
+
+String letterGrade = getLetterGrade (averageOfAllTestScores);
+
+System.out.println("Average of test scores: " + averageOfAllTestScores);
+System.out.println("Your overall average grade is: " + letterGrade);
+Output
+Enter test score (-1 to exit): 76
+Enter test score (-1 to exit): 49
+Enter test score (-1 to exit): 29
+Enter test score (-1 to exit): 49
+Enter test score (-1 to exit): 0
+Enter test score (-1 to exit): 30
+Enter test score (-1 to exit): 59
+Enter test score (-1 to exit): 68
+Enter test score (-1 to exit): -1
+Average of test scores: 40.57142857142857
+Your overall average grade is: F
+Unit tests
+@Test
+public void test_score_averages () {
+
+    List<Integer> testScores = Lists.newArrayList(50, 50, 75, 75);
+
+    double average = GradePapers.getTestScoreAverages(testScores);
+
+    assertEquals(62.5, average, 0);
+}
+
+@Test
+public void letter_grade_a() {
+
+    String letterGrade = GradePapers.getLetterGrade(92);
+
+    assertEquals("A", letterGrade);
+}
+
+@Test
+public void letter_grade_b() {
+
+    String letterGrade = GradePapers.getLetterGrade(82);
+
+    assertEquals("B", letterGrade);
+}
+
+@Test
+public void letter_grade_c() {
+
+    String letterGrade = GradePapers.getLetterGrade(72);
+
+    assertEquals("C", letterGrade);
+}
+
+@Test
+public void letter_grade_d() {
+
+    String letterGrade = GradePapers.getLetterGrade(62);
+
+    assertEquals("D", letterGrade);
+}
+
+@Test
+public void letter_grade_f() {
+
+    String letterGrade = GradePapers.getLetterGrade(52);
+
+    assertEquals("F", letterGrade);
+}
