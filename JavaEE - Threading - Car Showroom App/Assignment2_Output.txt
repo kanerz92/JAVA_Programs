@@ -1,0 +1,277 @@
+Day 1 beginning. There are 0 in the showroom today
+Buyer number 1, has entered the showroom
+Buyer number1 wants to buy a car but showroom is empty
+Seller  1 has entered the showroom, with a Red car with registration 03-G-87426 worth €1122
+Seller  2 has entered the showroom, with a Red car with registration 00-G-95397 worth €6887
+Seller number 1 sold their Red car with registration 03-G-87426 worth €1122
+Seller  3 has entered the showroom, with a Black car with registration 06-CE-29340 worth €7369
+Buyer number 1 has bought the Red car with registration 03-G-87426 worth €1122
+Seller number 3 sold their Black car with registration 06-CE-29340 worth €7369
+Seller number 2 sold their Red car with registration 00-G-95397 worth €6887
+Day 2 beginning. There are 2 in the showroom today
+Buyer number 2, has entered the showroom
+Buyer number 2 has bought the Black car with registration 06-CE-29340 worth €7369
+Buyer number 3, has entered the showroom
+Buyer number 3 has bought the Red car with registration 00-G-95397 worth €6887
+Buyer number 4, has entered the showroom
+Seller  4 has entered the showroom, with a Black car with registration 07-G-99786 worth €7619
+Buyer number4 wants to buy a car but showroom is empty
+Seller  5 has entered the showroom, with a Red car with registration 13-D-12949 worth €6142
+Seller number 4 sold their Black car with registration 07-G-99786 worth €7619
+Seller  6 has entered the showroom, with a Blue car with registration 19-G-64646 worth €15272
+Buyer number 4 has bought the Black car with registration 07-G-99786 worth €7619
+Seller number 6 sold their Blue car with registration 19-G-64646 worth €15272
+Seller number 5 sold their Red car with registration 13-D-12949 worth €6142
+Day 3 beginning. There are 2 in the showroom today
+Buyer number 5, has entered the showroom
+Buyer number 5 has bought the Blue car with registration 19-G-64646 worth €15272
+Buyer number 6, has entered the showroom
+Buyer number 6 has bought the Red car with registration 13-D-12949 worth €6142
+Buyer number 7, has entered the showroom
+Seller  7 has entered the showroom, with a Red car with registration 00-CE-52597 worth €6987
+Buyer number7 wants to buy a car but showroom is empty
+Seller  8 has entered the showroom, with a Red car with registration 17-G-52805 worth €18628
+Seller number 7 sold their Red car with registration 00-CE-52597 worth €6987
+Buyer number 7 has bought the Red car with registration 00-CE-52597 worth €6987
+Seller number 8 sold their Red car with registration 17-G-52805 worth €18628
+Day 4 beginning. There are 1 in the showroom today
+Buyer number 8, has entered the showroom
+Buyer number 9, has entered the showroom
+Buyer number 8 has bought the Red car with registration 17-G-52805 worth €18628
+Buyer number9 wants to buy a car but showroom is empty
+Seller  9 has entered the showroom, with a Black car with registration 18-G-32178 worth €11397
+Seller number 9 sold their Black car with registration 18-G-32178 worth €11397
+Buyer number 9 has bought the Black car with registration 18-G-32178 worth €11397
+Day 5 beginning. There are 0 in the showroom today
+Buyer number 10, has entered the showroom
+Buyer number10 wants to buy a car but showroom is empty
+Seller  10 has entered the showroom, with a Red car with registration 02-G-67120 worth €14078
+Seller number 10 sold their Red car with registration 02-G-67120 worth €14078
+Seller  11 has entered the showroom, with a Red car with registration 14-G-4847 worth €4692
+Buyer number 10 has bought the Red car with registration 02-G-67120 worth €14078
+Seller number 11 sold their Red car with registration 14-G-4847 worth €4692
+Day 6 beginning. There are 1 in the showroom today
+Buyer number 11, has entered the showroom
+Buyer number 11 has bought the Red car with registration 14-G-4847 worth €4692
+Seller  12 has entered the showroom, with a Red car with registration 17-C-79937 worth €7321
+Seller number 12 sold their Red car with registration 17-C-79937 worth €7321
+Seller  13 has entered the showroom, with a Blue car with registration 09-G-46603 worth €13999
+Seller  14 has entered the showroom, with a Red car with registration 02-G-89536 worth €6476
+Seller number 13 sold their Blue car with registration 09-G-46603 worth €13999
+Seller number 14 sold their Red car with registration 02-G-89536 worth €6476
+Day 7 beginning. There are 3 in the showroom today
+Buyer number 12, has entered the showroom
+Buyer number 12 has bought the Red car with registration 17-C-79937 worth €7321
+Buyer number 13, has entered the showroom
+Buyer number 13 has bought the Blue car with registration 09-G-46603 worth €13999
+Seller  15 has entered the showroom, with a Blue car with registration 06-G-16211 worth €11672
+Seller  16 has entered the showroom, with a Red car with registration 05-G-92624 worth €13629
+Seller number 15 sold their Blue car with registration 06-G-16211 worth €11672
+Seller  17 has entered the showroom, with a Blue car with registration 18-C-62582 worth €17693
+Seller number 16 sold their Red car with registration 05-G-92624 worth €13629
+Seller number 17 sold their Blue car with registration 18-C-62582 worth €17693
+Day 8 beginning. There are 4 in the showroom today
+Buyer number 14, has entered the showroom
+Buyer number 15, has entered the showroom
+Buyer number 14 has bought the Red car with registration 02-G-89536 worth €6476
+Buyer number 16, has entered the showroom
+Seller  18 has entered the showroom, with a Black car with registration 16-G-57972 worth €11809
+Buyer number 15 has bought the Blue car with registration 06-G-16211 worth €11672
+Seller number 18 sold their Black car with registration 16-G-57972 worth €11809
+Seller  19 has entered the showroom, with a Blue car with registration 06-CE-26725 worth €7007
+Buyer number 16 has bought the Red car with registration 05-G-92624 worth €13629
+Seller  20 has entered the showroom, with a Red car with registration 02-C-14099 worth €12577
+Seller number 19 sold their Blue car with registration 06-CE-26725 worth €7007
+Seller number 20 sold their Red car with registration 02-C-14099 worth €12577
+Day 9 beginning. There are 4 in the showroom today
+Buyer number 17, has entered the showroom
+Buyer number 18, has entered the showroom
+Buyer number 17 has bought the Blue car with registration 18-C-62582 worth €17693
+Seller  21 has entered the showroom, with a Red car with registration 03-G-57913 worth €9404
+Buyer number 18 has bought the Black car with registration 16-G-57972 worth €11809
+Seller  22 has entered the showroom, with a Red car with registration 19-CE-29593 worth €6933
+Seller  23 has entered the showroom, with a Blue car with registration 18-CE-22642 worth €12946
+Seller number 21 sold their Red car with registration 03-G-57913 worth €9404
+Seller number 23 sold their Blue car with registration 18-CE-22642 worth €12946
+Seller number 22 sold their Red car with registration 19-CE-29593 worth €6933
+Day 10 beginning. There are 5 in the showroom today
+Buyer number 19, has entered the showroom
+Buyer number 20, has entered the showroom
+Buyer number 19 has bought the Blue car with registration 06-CE-26725 worth €7007
+Buyer number 20 has bought the Red car with registration 02-C-14099 worth €12577
+Seller  24 has entered the showroom, with a Red car with registration 08-G-7497 worth €14312
+Seller number 24 sold their Red car with registration 08-G-7497 worth €14312
+Seller  26 has entered the showroom, with a Black car with registration 05-D-32161 worth €15229
+Seller number 26 sold their Black car with registration 05-D-32161 worth €15229
+Seller  25 has entered the showroom, with a Red car with registration 12-D-44961 worth €6112
+Day 11 beginning. There are 5 in the showroom today
+Buyer number 21, has entered the showroom
+Buyer number 21 has bought the Red car with registration 03-G-57913 worth €9404
+Seller  27 has entered the showroom, with a Red car with registration 03-C-13291 worth €9528
+Seller number 25 sold their Red car with registration 12-D-44961 worth €6112
+Seller  28 has entered the showroom, with a Red car with registration 12-CE-77763 worth €11014
+Seller  29 has entered the showroom, with a Black car with registration 10-C-2385 worth €2452
+Day 12 beginning. There are 5 in the showroom today
+Buyer number 22, has entered the showroom
+Buyer number 22 has bought the Blue car with registration 18-CE-22642 worth €12946
+Buyer number 23, has entered the showroom
+Seller number 27 sold their Red car with registration 03-C-13291 worth €9528
+Seller  30 has entered the showroom, with a Blue car with registration 07-C-53 worth €16331
+Buyer number 23 has bought the Red car with registration 19-CE-29593 worth €6933
+Seller number 29 sold their Black car with registration 10-C-2385 worth €2452
+Day 13 beginning. There are 5 in the showroom today
+Buyer number 24, has entered the showroom
+Buyer number 24 has bought the Red car with registration 08-G-7497 worth €14312
+Buyer number 25, has entered the showroom
+Seller number 28 sold their Red car with registration 12-CE-77763 worth €11014
+Seller  31 has entered the showroom, with a Black car with registration 07-G-40528 worth €10959
+Buyer number 25 has bought the Black car with registration 05-D-32161 worth €15229
+Seller  32 has entered the showroom, with a Blue car with registration 01-G-7061 worth €8354
+Seller number 30 sold their Blue car with registration 07-C-53 worth €16331
+Day 14 beginning. There are 5 in the showroom today
+Buyer number 26, has entered the showroom
+Buyer number 26 has bought the Red car with registration 12-D-44961 worth €6112
+Buyer number 27, has entered the showroom
+Seller number 32 sold their Blue car with registration 01-G-7061 worth €8354
+Buyer number 27 has bought the Red car with registration 03-C-13291 worth €9528
+Seller  33 has entered the showroom, with a Black car with registration 07-G-47587 worth €9304
+Seller number 31 sold their Black car with registration 07-G-40528 worth €10959
+Seller  34 has entered the showroom, with a Red car with registration 10-C-18878 worth €1000
+Seller  35 has entered the showroom, with a Blue car with registration 15-G-45678 worth €1000
+Day 15 beginning. There are 5 in the showroom today
+Buyer number 28, has entered the showroom
+Buyer number 28 has bought the Black car with registration 10-C-2385 worth €2452
+Seller  36 has entered the showroom, with a Black car with registration 00-CE-42071 worth €16989
+Seller number 33 sold their Black car with registration 07-G-47587 worth €9304
+Seller  37 has entered the showroom, with a Red car with registration 08-G-12747 worth €6619
+Day 16 beginning. There are 5 in the showroom today
+Buyer number 29, has entered the showroom
+Buyer number 29 has bought the Red car with registration 12-CE-77763 worth €11014
+Seller  38 has entered the showroom, with a Red car with registration 00-G-69812 worth €3950
+Seller number 36 sold their Black car with registration 00-CE-42071 worth €16989
+Seller  39 has entered the showroom, with a Black car with registration 13-C-92424 worth €14760
+Seller  40 has entered the showroom, with a Blue car with registration 10-G-75925 worth €5536
+Day 17 beginning. There are 5 in the showroom today
+Buyer number 30, has entered the showroom
+Buyer number 30 has bought the Blue car with registration 07-C-53 worth €16331
+Buyer number 31, has entered the showroom
+Seller number 38 sold their Red car with registration 00-G-69812 worth €3950
+Buyer number 31 has bought the Blue car with registration 01-G-7061 worth €8354
+Seller number 40 sold their Blue car with registration 10-G-75925 worth €5536
+Seller  41 has entered the showroom, with a Black car with registration 09-G-68649 worth €19854
+Seller  42 has entered the showroom, with a Red car with registration 04-C-59377 worth €18570
+Day 18 beginning. There are 5 in the showroom today
+Buyer number 32, has entered the showroom
+Buyer number 33, has entered the showroom
+Buyer number 32 has bought the Black car with registration 07-G-40528 worth €10959
+Buyer number 34, has entered the showroom
+Seller number 39 sold their Black car with registration 13-C-92424 worth €14760
+Seller  43 has entered the showroom, with a Black car with registration 11-D-58261 worth €18491
+Buyer number 34 has bought the Black car with registration 07-G-47587 worth €9304
+Seller  44 has entered the showroom, with a Black car with registration 02-G-57390 worth €10564
+Seller number 42 sold their Red car with registration 04-C-59377 worth €18570
+Buyer number 33 has bought the Black car with registration 00-CE-42071 worth €16989
+Seller number 37 sold their Red car with registration 08-G-12747 worth €6619
+Day 19 beginning. There are 5 in the showroom today
+Buyer number 35, has entered the showroom
+Buyer number 35 has bought the Red car with registration 00-G-69812 worth €3950
+Seller  45 has entered the showroom, with a Black car with registration 08-G-12480 worth €8600
+Seller number 45 sold their Black car with registration 08-G-12480 worth €8600
+Day 20 beginning. There are 5 in the showroom today
+Buyer number 36, has entered the showroom
+Buyer number 36 has bought the Blue car with registration 10-G-75925 worth €5536
+Buyer number 37, has entered the showroom
+Buyer number 38, has entered the showroom
+Seller number 35 sold their Blue car with registration 15-G-45678 worth €1000
+Buyer number 38 has bought the Black car with registration 13-C-92424 worth €14760
+Seller  46 has entered the showroom, with a Red car with registration 04-D-30638 worth €15867
+Seller  47 has entered the showroom, with a Blue car with registration 05-C-61902 worth €14283
+Buyer number 37 has bought the Red car with registration 04-C-59377 worth €18570
+Seller number 34 sold their Red car with registration 10-C-18878 worth €1000
+Seller number 41 sold their Black car with registration 09-G-68649 worth €19854
+Day 21 beginning. There are 5 in the showroom today
+Buyer number 39, has entered the showroom
+Buyer number 39 has bought the Red car with registration 08-G-12747 worth €6619
+Buyer number 40, has entered the showroom
+Seller number 44 sold their Black car with registration 02-G-57390 worth €10564
+Seller  48 has entered the showroom, with a Red car with registration 10-CE-15561 worth €1337
+Buyer number 40 has bought the Black car with registration 08-G-12480 worth €8600
+Seller  49 has entered the showroom, with a Red car with registration 04-D-98353 worth €8386
+Seller number 46 sold their Red car with registration 04-D-30638 worth €15867
+Day 22 beginning. There are 5 in the showroom today
+Buyer number 41, has entered the showroom
+Buyer number 41 has bought the Blue car with registration 15-G-45678 worth €1000
+Seller  50 has entered the showroom, with a Black car with registration 07-D-77711 worth €2810
+Seller number 47 sold their Blue car with registration 05-C-61902 worth €14283
+Day 23 beginning. There are 5 in the showroom today
+Buyer number 42, has entered the showroom
+Buyer number 42 has bought the Red car with registration 10-C-18878 worth €1000
+Buyer number 43, has entered the showroom
+Seller number 50 sold their Black car with registration 07-D-77711 worth €2810
+Buyer number 44, has entered the showroom
+Seller  51 has entered the showroom, with a Red car with registration 04-CE-89466 worth €2974
+Buyer number 43 has bought the Black car with registration 09-G-68649 worth €19854
+Seller  52 has entered the showroom, with a Black car with registration 00-C-9459 worth €7377
+Seller number 43 sold their Black car with registration 11-D-58261 worth €18491
+Buyer number 44 has bought the Black car with registration 02-G-57390 worth €10564
+Seller number 49 sold their Red car with registration 04-D-98353 worth €8386
+Day 24 beginning. There are 5 in the showroom today
+Buyer number 45, has entered the showroom
+Buyer number 45 has bought the Red car with registration 04-D-30638 worth €15867
+Buyer number 46, has entered the showroom
+Seller number 51 sold their Red car with registration 04-CE-89466 worth €2974
+Buyer number 47, has entered the showroom
+Buyer number 46 has bought the Blue car with registration 05-C-61902 worth €14283
+Seller number 48 sold their Red car with registration 10-CE-15561 worth €1337
+Seller  53 has entered the showroom, with a Black car with registration 15-CE-42599 worth €12108
+Buyer number 47 has bought the Black car with registration 07-D-77711 worth €2810
+Seller number 52 sold their Black car with registration 00-C-9459 worth €7377
+Day 25 beginning. There are 5 in the showroom today
+Buyer number 48, has entered the showroom
+Buyer number 48 has bought the Black car with registration 11-D-58261 worth €18491
+Seller  54 has entered the showroom, with a Red car with registration 03-CE-26930 worth €9890
+Seller number 53 sold their Black car with registration 15-CE-42599 worth €12108
+Seller  55 has entered the showroom, with a Red car with registration 12-D-18268 worth €1000
+Seller  56 has entered the showroom, with a Black car with registration 08-C-98773 worth €15378
+Day 26 beginning. There are 5 in the showroom today
+Buyer number 49, has entered the showroom
+Buyer number 50, has entered the showroom
+Buyer number 49 has bought the Red car with registration 04-D-98353 worth €8386
+Seller number 54 sold their Red car with registration 03-CE-26930 worth €9890
+Seller  57 has entered the showroom, with a Red car with registration 15-D-79611 worth €16133
+Seller  58 has entered the showroom, with a Red car with registration 09-C-5175 worth €1340
+Buyer number 50 has bought the Red car with registration 04-CE-89466 worth €2974
+Seller number 57 sold their Red car with registration 15-D-79611 worth €16133
+Day 27 beginning. There are 5 in the showroom today
+Buyer number 51, has entered the showroom
+Buyer number 51 has bought the Red car with registration 10-CE-15561 worth €1337
+Seller  59 has entered the showroom, with a Black car with registration 07-G-13717 worth €16720
+Seller number 55 sold their Red car with registration 12-D-18268 worth €1000
+Seller  60 has entered the showroom, with a Blue car with registration 07-D-84417 worth €8572
+Seller  61 has entered the showroom, with a Red car with registration 16-D-78619 worth €7912
+Day 28 beginning. There are 5 in the showroom today
+Buyer number 53, has entered the showroom
+Buyer number 52, has entered the showroom
+Buyer number 53 has bought the Black car with registration 00-C-9459 worth €7377
+Seller  62 has entered the showroom, with a Black car with registration 13-G-88620 worth €18603
+Seller number 59 sold their Black car with registration 07-G-13717 worth €16720
+Buyer number 52 has bought the Black car with registration 15-CE-42599 worth €12108
+Seller number 58 sold their Red car with registration 09-C-5175 worth €1340
+Day 29 beginning. There are 5 in the showroom today
+Buyer number 54, has entered the showroom
+Buyer number 54 has bought the Red car with registration 03-CE-26930 worth €9890
+Seller number 56 sold their Black car with registration 08-C-98773 worth €15378
+Buyer number 55, has entered the showroom
+Seller  63 has entered the showroom, with a Blue car with registration 07-C-92134 worth €4752
+Buyer number 55 has bought the Red car with registration 15-D-79611 worth €16133
+Seller number 60 sold their Blue car with registration 07-D-84417 worth €8572
+Day 30 beginning. There are 5 in the showroom today
+Buyer number 56, has entered the showroom
+Buyer number 57, has entered the showroom
+Buyer number 56 has bought the Red car with registration 12-D-18268 worth €1000
+Seller number 61 sold their Red car with registration 16-D-78619 worth €7912
+Seller  64 has entered the showroom, with a Black car with registration 07-C-85629 worth €16370
+Seller  65 has entered the showroom, with a Blue car with registration 03-G-56771 worth €16747
+Buyer number 57 has bought the Black car with registration 07-G-13717 worth €16720
+Seller  66 has entered the showroom, with a Blue car with registration 16-CE-13540 worth €3994
+Seller number 63 sold their Blue car with registration 07-C-92134 worth €4752

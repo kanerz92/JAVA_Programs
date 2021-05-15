@@ -1,0 +1,58 @@
+CT548 Assignment 2
+Ethan Kane
+09620371
+
+File structure
+Name: A2-09620371
+Source Code: A2-09620371\src\main\java\eventClasses
+Source Code: A2-09620371\src\main\java\eventMain
+UML: A2-09620371\UML_A2_09620371
+ReadMe: A2-09620371\
+
+The main method class for the program is in Application class, located in the eventMain package.
+Import classes to run main().
+
+										Within eventMain package
+Application Class:
+	-Use of Jackson Object mapper to read JSON file and to deserialise into an instance of EventsCollection
+	-Method to get user input, split into getting events based on specific year or range of years
+	-EventsCollection checked based on year and outputted to console
+	-getInputRange method calls EventTimeline class and creates instance, puts into arraylist which then implements sort method
+	-Sorted EventTimeline instance is then printed for a sorted range of events to be displayed to user
+
+EventsCollection Class:
+	-Class to hold Set of Events being imported by Jackson from JSON file
+	-Implementing singleton class of EventsCollection with getInstance method
+	-Only one instance of EventsCollection ever created 
+	-Adding the deserialised JSON file from mapper object into the EventCollection singleton tree set
+	
+										Within eventClasses package
+EventSuper:
+	-Adding to make an open/closed system
+	-Super class for events implementing comparable interface of type events, used to implement sorting by year with compareTo
+	
+
+Events Class:
+	-Class for main events
+	-Instantiated TreeSet of subevents
+	-Throw exception within setSubevents to only allow sub events to be added if they occur on or after main event year
+	
+
+SubEvents Class:
+	-Extends Events Class
+	-Overrided toString
+
+EventTimeline Class:
+	-Class to store user range of events needed and to implement a sorting method
+	-Implementing a singleton class of EventTimeline for when user inputs a range of events to be checked and to output sorted ET
+	-Sort method, sorting arraylist in ascending order by the implemented comparable interface and compare to, sorting by year
+
+
+External Libraries used:
+	import com.fasterxml.jackson.core.JsonParseException;
+	import com.fasterxml.jackson.databind.JsonMappingException;
+	import com.fasterxml.jackson.databind.ObjectMapper;
+
+
+UML class diagram is located in folder UML_A2
+Additional ScreenShots of console

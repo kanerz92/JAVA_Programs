@@ -1,0 +1,29 @@
+CT548 Assignment 1
+Ethan Kane
+09620371
+
+File structure
+Name: A1-09620371
+Source Code: A1-09620371\src\main\java\a1Classes
+Source Code: A1-09620371\src\main\java\a1Main
+UML: A1-09620371\UML_A1_09620371
+ReadMe: A1-09620371\
+
+The main class for the program is called ShapesMain, located in the a1Main package.
+Import classes to run main().
+The classes for the program are located in the A1Classes package. There are 8 Classes:
+	-Shapes
+	-PrimitiveShapes
+	-CompositeShapes
+	-Ellipse
+	-Circle
+	-Polygon
+	-Rectangle
+	-Triangle
+
+External Libraries used:
+
+import java.text.DecimalFormat; for formatting returned double from getArea method.
+import java.util.HashSet; for unsorted shapes collection to guarantee uniqueness
+
+UML class diagram is located in folder UML_A1
