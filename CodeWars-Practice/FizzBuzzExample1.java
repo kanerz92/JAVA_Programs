@@ -1,9 +1,5 @@
 import java.util.*;  
-public class FizzBuzzExample1   
-{  
-
-
-
+public class FizzBuzzExample1    {  
 private static void fizzfunction(int n){
     for (int i = 1; i <= n; i++)   {  
 //returns true if both the conditions return true  
@@ -29,16 +25,14 @@ private static void fizzfunction(int n){
     System.out.print(","+" ");  
     }
 } 
-public static void main(String args[])   
-{  
+public static void main(String args[])   {  
 //constructor of the scanner class  
-Scanner sc = new Scanner(System.in);  
-System.out.print("Enter the number: ");  
+         Scanner sc = new Scanner(System.in);  
+        System.out.print("Enter the number: ");  
 //reads an integer from the user  
-int num = sc.nextInt();  
-System.out.println("The Fizz, Buzz, and FizzBuzz numbers are: ");  
+        int num = sc.nextInt();  
+        System.out.println("The Fizz, Buzz, and FizzBuzz numbers are: ");  
 //for loop executes until the condition i<=n becomes false  
-fizzfunction(num);
-}
-
+        fizzfunction(num);
+        }
 }
