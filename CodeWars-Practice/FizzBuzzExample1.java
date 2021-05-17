@@ -14,35 +14,30 @@ fizzfunction(num);
 
 }
 private static void fizzfunction(int n){
-for (int i = 1; i <= n; i++)   
-{  
+    for (int i = 1; i <= n; i++)   {  
 //returns true if both the conditions return true  
-if (i%3==0 && i%5==0)   
-{   
+        if (i%3==0 && i%5==0)   {   
 //prints if the number is multiple of 3 and 5  
-System.out.print("FizzBuzz");  
-}   
+        System.out.print("FizzBuzz");  
+        }   
 //executes if the condition returns true  
-else if (i%3==0)   
-{  
+        else if (i%3==0)   {  
 //prints if the number is multiple of 3  
-System.out.print("Fizz");  
-}   
+        System.out.print("Fizz");  
+        }   
 //executes if the condition returns true  
-else if (i%5==0)   
-{   
+        else if (i%5==0)   {   
 //prints if the number is multiple of 5  
-System.out.print("Buzz");  
-}   
-else   
-{  
+        System.out.print("Buzz");  
+        }   
+        else   {  
 //prints the number itself if the number is not divisible by both 3 and 5     
-System.out.print(i);  
-}  
+        System.out.print(i);  
+        }  
 //prints space  
-System.out.print(","+" ");  
-}
+    System.out.print(","+" ");  
+    }
 } 
 }
 
-///
+
