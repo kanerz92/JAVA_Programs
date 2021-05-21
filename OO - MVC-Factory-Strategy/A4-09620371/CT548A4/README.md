@@ -2,10 +2,10 @@
 Ethan Kane
 09620371
 
-Source Code: CT548A4\CT548A4\src\main\java
-Source Code: CT548A4\CT548A4\src\main\java\a4\controller - \model - \view 
-Test Code: CT548A4\CT548A4\src\test\java\a4\tests
-UML Diagrams: \CT548A4\CT548A4\UML - Component - Class - UseCase - Sequence
+* Source Code: CT548A4\CT548A4\src\main\java
+* Source Code: CT548A4\CT548A4\src\main\java\a4\controller - \model - \view 
+* Test Code: CT548A4\CT548A4\src\test\java\a4\tests
+* UML Diagrams: \CT548A4\CT548A4\UML - Component - Class - UseCase - Sequence
 ## Documentation
 
 ### Reasoning
