@@ -8,17 +8,17 @@ import java.time.format.DateTimeFormatterBuilder;
 public class Measurement {
 	
 	//public LocalDateTime date;
-	public LocalDateTime date;
-	public double rain;
-	public double temp;
-	public double wetb;
-	public double dewpt;
-	public double vappr;
-	public double rhum;
-	public double msl;
-	public double wdsp;
-	public double wddir;
-	public double sun;
+	private LocalDateTime date;
+	private double rain;
+	private double temp;
+	private double wetb;
+	private double dewpt;
+	private double vappr;
+	private double rhum;
+	private double msl;
+	private double wdsp;
+	private double wddir;
+	private double sun;
 	
 
 	
