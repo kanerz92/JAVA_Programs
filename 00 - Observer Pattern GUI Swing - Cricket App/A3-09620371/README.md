@@ -1,6 +1,4 @@
-# Using test-driven development approach, implement the Observer
-design pattern in Java and demonstrate its behaviour within a
-Graphical User Interface. 
+# Using test-driven development approach, implement the Observer design pattern in Java and demonstrate its behaviour within a Graphical User Interface. 
 
 * Ethan Kane: 09620371
 
