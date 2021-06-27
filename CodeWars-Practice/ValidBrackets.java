@@ -31,7 +31,7 @@ public class ValidBrackets {
             switch (x) {
             case ')':
                 check = stack.pop();
-                if (check == '{' || check == '[')
+                if (check == '{' || check == '[') //If ( is in the stack the case is true
                     return false;
                 break;
  
