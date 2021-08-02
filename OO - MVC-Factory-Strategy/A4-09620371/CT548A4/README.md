@@ -1,4 +1,4 @@
-# CT548 Assignment 4
+# MVC- Media Catalogue Application
 Ethan Kane
 09620371
 
